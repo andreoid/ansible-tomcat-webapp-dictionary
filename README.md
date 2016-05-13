@@ -11,7 +11,7 @@ Requires Ansible 2.0+ as we're combining dictionaries
 ### Execution
 Deploy all customers
 ```sh
-$ ansible-playbook -i environments/just_apple/inventory.ini webapps.yml -c local
+$ ansible-playbook -i environments/all_customers/inventory.ini webapps.yml -c local
 ```
 Deploy a single customer
 ```sh
