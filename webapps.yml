@@ -1,0 +1,5 @@
+---
+- name: Configure and deploy Web Applications
+  hosts: webapps
+  roles:
+    - { role: webapps, customers: "{{customer_list}}" }

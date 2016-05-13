@@ -1,0 +1,14 @@
+banana_info: {name: BananaMan, fullname: "BananMan Ltd."}
+apple_info: {name: AppleTree, fullname: "AppleTree Ltd."}
+
+customer_apple:
+   apple-app1: { variant: app1, version: 2.19.0-8596-95e7f3e, info: "{{ apple_info }}" }
+   apple-app2: { variant: app2, version: 1.5.0-4412-eca66cc, info: "{{ apple_info }}" }
+   apple-app3: { variant: app3, version: 2.11.1-8720-c0d2ed5, info: "{{ apple_info }}" }
+   apple-app4: { variant: app4, version: 1.0.1-490-a67e39e-develop, info: "{{ apple_info }}" }
+
+customer_banana:
+   banana-app1:  { variant: app1, version: 2.19.0-8596-95e7f3e, info: "{{ banana_info }}" }
+   banana-app2:  { variant: app2, version: 1.5.0-4412-eca66cc, info: "{{ banana_info }}" }
+   banana-app3:  { variant: app3, version: 2.11.1-8720-c0d2ed5, info: "{{ banana_info }}" }
+   banana-app4:  { variant: app4, version: 1.0.1-490-a67e39e-develop, info: "{{ banana_info }}" }

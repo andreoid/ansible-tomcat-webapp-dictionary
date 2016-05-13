@@ -1,0 +1,6 @@
+---
+- set_fact:
+     apps: "{{ customer_list }}"
+
+- debug:
+     var: apps     
